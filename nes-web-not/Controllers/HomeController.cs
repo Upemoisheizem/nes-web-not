@@ -9,6 +9,7 @@ namespace nes_web_not.Controllers
     public class HomeController : Controller
     {
         // c1
+        // c2
         public ActionResult Index()
         {
             return View();
