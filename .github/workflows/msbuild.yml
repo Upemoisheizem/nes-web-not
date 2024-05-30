@@ -46,12 +46,7 @@ jobs:
       run: |
         cd nes-web-not.Tests
         pwd
-        ls
-        cd bin
-        pwd
-        ls
-        cd Release
-        ls
+        ls nes-web-not.Tests\bin\Release\nes-web-not.Tests.dll
     - name: vstest-action
       uses: microsoft/vstest-action@v1.0.0
       with: 
