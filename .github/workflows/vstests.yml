@@ -33,4 +33,6 @@ jobs:
 
       # Trying tests
       - name: Change directory to dll location
-        run: cd nes-web-not.Tests/bin
+        run: |
+          pwd
+          ls -al
