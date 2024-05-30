@@ -36,3 +36,4 @@ jobs:
         run: |
           pwd
           ls -al
+          cd nes-web-not.Tests
