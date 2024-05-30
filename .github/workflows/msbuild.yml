@@ -50,3 +50,8 @@ jobs:
         cd bin
         pwd
         ls
+        cd Release
+    - name: Run tests
+      uses: microsoft-approved-actions/vstest@master
+      with: 
+        testAssembly: nes-web-not.Tests.dll
