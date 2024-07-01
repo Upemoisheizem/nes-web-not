@@ -12,6 +12,7 @@ namespace nes_web_not.Tests.Controllers
     [TestClass]
     public class HomeControllerTest
     {
+        // c1
         [TestMethod]
         public void Index()
         {
